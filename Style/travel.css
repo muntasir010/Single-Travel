@@ -214,7 +214,7 @@ a:hover {
 }
 
 #destination5 {
-    background-image: url('../images/Rectangle\ 9.png');
+    background-image: url('../Images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     width: 274px;
     height: 286px;
@@ -332,7 +332,85 @@ h4 {
 }
 
 /* Deals and Discounts */
+.discounts {
+    max-width: 1280px;
+    margin: 80px auto;
+    text-align: center;
+}
 
+.discounts-text-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.discounts-text-container h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.booking-img-container {
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.booking-text-container {
+    padding: 0px 20px;
+    border-radius: 16px;
+    border: 4px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    margin-left: 600px;
+    text-align: left;
+
+}
+.booking-img-container-2{
+    background-image: url(../Images/Group\ 40.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.booking-text-container-2 {
+    padding: 0px 20px;
+    border-radius: 16px;
+    border: 4px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    margin-left: 50px;
+    text-align: left;
+}
+.discount-icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.discount-icon h5{
+    color: gray;
+}
+.discount-icon .icon{
+    color: #FF5400;
+}
+.booking-img-container h6{
+    font-size: 20px;
+    color: #FF5400;
+    margin: 15px 0px;
+}
+.booking-img-container-2 h6{
+    font-size: 20px;
+    color: #FF5400;
+    margin: 15px 0px;
+}
 
 /* Simple perfect place */
 .simple-perfect {
@@ -708,7 +786,17 @@ footer hr {
         width: 90%;
         height: 52px;
     }
-
+    /* discount */
+    .booking-text-container {
+        margin: 0px auto;
+        width: 300px;
+        height: 400px;
+    }
+    .booking-text-container-2 {
+        margin: 0px auto;
+        width: 300px;
+        height: 400px;
+    }
 
     /* Popular tour */
 
