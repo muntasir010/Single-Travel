@@ -222,7 +222,7 @@ a:hover {
 }
 
 #destination6 {
-    background-image: url('../images/Rectangle\ 11.png');
+    background-image: url('../Images/Rectangle\ 11.png');
     background-repeat: no-repeat;
     width: 473px;
     height: 300px;
@@ -370,7 +370,8 @@ h4 {
     text-align: left;
 
 }
-.booking-img-container-2{
+
+.booking-img-container-2 {
     background-image: url(../Images/Group\ 40.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -379,6 +380,7 @@ h4 {
     padding-top: 50px;
     margin-bottom: 40px;
 }
+
 .booking-text-container-2 {
     padding: 0px 20px;
     border-radius: 16px;
@@ -390,23 +392,28 @@ h4 {
     margin-left: 50px;
     text-align: left;
 }
-.discount-icon{
+
+.discount-icon {
     display: flex;
     gap: 15px;
     margin-top: 50px;
 }
-.discount-icon h5{
+
+.discount-icon h5 {
     color: gray;
 }
-.discount-icon .icon{
+
+.discount-icon .icon {
     color: #FF5400;
 }
-.booking-img-container h6{
+
+.booking-img-container h6 {
     font-size: 20px;
     color: #FF5400;
     margin: 15px 0px;
 }
-.booking-img-container-2 h6{
+
+.booking-img-container-2 h6 {
     font-size: 20px;
     color: #FF5400;
     margin: 15px 0px;
@@ -473,6 +480,50 @@ video {
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     width: 100%;
+}
+
+/* visit our trending tours */
+.trending-container {
+    max-width: 1280px;
+    margin: 40px auto;
+}
+
+.trending-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-text-container button {
+    padding: 8px 30px;
+}
+
+.trending-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    width: 380px;
+    margin-top: 40px;
+    gap: 90px;
+}
+
+.trending-card {
+    background-color: #f1f1f1;
+    padding: 0px 10px 10px 10px;
+    border-radius: 12px;
+}
+
+.trending-card img {
+    width: 340px;
+    height: 270px;
+    border-radius: 12px;
+}
+
+.trending-card h4 {
+    font-size: 20px;
+}
+
+.trending-card button {
+    width: 80px;
 }
 
 /* Newsletter Section */
@@ -557,12 +608,14 @@ footer {
     text-align: center;
     padding: 50px;
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
 }
+
 footer h3 {
     align-items: center;
 }
@@ -664,7 +717,8 @@ footer hr {
         width: 100px;
     }
 
-    header, main{
+    header,
+    main {
         margin: 15px;
     }
 
@@ -675,10 +729,14 @@ footer hr {
     .row-3,
     .hotels-container,
     .simple-perfect,
-    .newsletter-container {
+    .newsletter-container,
+    .trending-text-container {
         flex-direction: column;
     }
-
+    .trending-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
     .destination-container,
     .choose-text-container,
     footer br {
@@ -687,7 +745,7 @@ footer hr {
 
     .popular-tour,
     .hotels-container,
-    .newsletter-container {
+    .newsletter-container,.trending-card-container {
         gap: 10px;
     }
 
@@ -786,12 +844,14 @@ footer hr {
         width: 90%;
         height: 52px;
     }
+
     /* discount */
     .booking-text-container {
         margin: 0px auto;
         width: 300px;
         height: 400px;
     }
+
     .booking-text-container-2 {
         margin: 0px auto;
         width: 300px;
@@ -811,9 +871,11 @@ footer hr {
         height: 200px;
         background-size: 100% 100%;
     }
-    .popular-tour-img{
+
+    .popular-tour-img {
         width: 100%;
     }
+
     /* Newsletter */
     .newsletter {
         width: 85%;
